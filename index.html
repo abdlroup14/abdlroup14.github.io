@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Abdul Roup | Developer & Edukator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Roup<span>.</span>Dev</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Beranda</a></li>
+                <li><a href="#about" class="nav-link">Tentang</a></li>
+                <li><a href="#education" class="nav-link">Pendidikan</a></li>
+                <li><a href="#projects" class="nav-link">Proyek</a></li>
+                <li><a href="#teaching" class="nav-link">Mengajar</a></li>
+                <li><a href="#contact" class="nav-link btn-contact">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content reveal-text">
+            <p class="hero-subtitle">Halo, Saya Abdul Roup</p>
+            <h1>Developer, IoT Enthusiast & <span class="typed-text"></span></h1>
+            <p class="hero-description">
+                Menjembatani dunia perangkat lunak dan perangkat keras. Spesialis Web Development (Laravel), IoT System, dan Edukator Teknologi.
+            </p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">Lihat Portfolio</a>
+                <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container about-container">
+            <div class="about-img reveal-left">
+                <img src="profil.jpeg" alt="Abdul Roup">
+            </div>
+            <div class="about-text reveal-right">
+                <h2 class="section-title">Tentang Saya</h2>
+                <p class="lead">Mahasiswa Teknik Elektro UBSI.</p>
+                <p>
+                    Saya memiliki minat besar dalam teknologi informasi dan otomasi. Sejak sekolah, saya aktif mengembangkan aplikasi <i>real-case</i> yang digunakan oleh institusi pendidikan dan bisnis. 
+                    Saya menggabungkan kedisiplinan, solusi sistematis, dan keinginan untuk terus belajar teknologi baru.
+                </p>
+                
+                <h3 style="margin-top: 20px; color: #fff;">Keahlian Teknis</h3>
+                <div class="skills-grid">
+                    <div class="skill-item"><i class="fab fa-laravel"></i> Laravel/PHP</div>
+                    <div class="skill-item"><i class="fas fa-microchip"></i> IoT (ESP32)</div>
+                    <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
+                    <div class="skill-item"><i class="fab fa-python"></i> Python AI</div>
+                    <div class="skill-item"><i class="fas fa-database"></i> MySQL</div>
+                    <div class="skill-item"><i class="fab fa-bootstrap"></i> Bootstrap</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title text-center">Jejak Pendidikan</h2>
+            <div class="timeline">
+                <div class="timeline-item reveal-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Sekarang</div>
+                    <div class="timeline-content">
+                        <h3>Universitas Bina Sarana Informatika (UBSI)</h3>
+                        <h4>S1 Teknik Elektro</h4>
+                        <p>Memperdalam pemahaman tentang elektronika, sistem kendali, dan integrasi hardware-software.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Alumni</div>
+                    <div class="timeline-content">
+                        <h3>SMK Setia Gama</h3>
+                        <h4>Rekayasa Perangkat Lunak (RPL)</h4>
+                        <p>Fokus pada pengembangan aplikasi web, desktop, dan database. Mulai mengerjakan proyek nyata sekolah.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title text-center">Portofolio Proyek</h2>
+            <p class="section-subtitle text-center">Aplikasi nyata yang telah saya bangun dan implementasikan.</p>
+            
+            <div class="projects-grid">
+                <div class="project-card reveal-up">
+                    <div class="card-image-wrapper">
+                        <img src="img/projek/absensiswa.png" alt="Aplikasi Absensi"> 
+                        <div class="card-overlay">
+                            <span>Sistem Manajemen Sekolah</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Aplikasi Absensi & SPP</h3>
+                        <p class="tech-stack">PHP Native • MySQL • API</p>
+                        <p class="project-desc">Sistem absensi digital (QR/RFID) terintegrasi dengan pembayaran SPP dan laporan otomatis untuk SMK.</p>
+                    </div>
+                </div>
+
+                <a href="https://distribusi.setiagama.sch.id/" target="_blank" class="project-card reveal-up" style="transition-delay: 0.2s; text-decoration: none;">
+                    <div class="card-image-wrapper">
+                         <img src="img/projek/distribusi.png" alt="Aplikasi Logistik">
+                         <div class="card-overlay" style="text-decoration: none;">
+                            <span style="text-decoration: none; color: #fff;">Manajemen Bisnis</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Sistem Distribusi & Logistik</h3>
+                        <p class="tech-stack">Laravel • jQuery • JavaScript</p>
+                        <p class="project-desc">Aplikasi manajemen stok gudang, tracking pengiriman barang, dan faktur digital untuk perusahaan.</p>
+                    </div>
+                </a>
+
+                <div class="project-card reveal-up" style="transition-delay: 0.4s;">
+                    <div class="card-image-wrapper">
+                         <img src="img/projek/smartcar.png" alt="Proyek IoT">
+                         <div class="card-overlay">
+                            <span>Hardware & IoT</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Smart Terrarium & Smart Car</h3>
+                        <p class="tech-stack">ESP32 • C++ • MQTT</p>
+                        <p class="project-desc">Sistem monitoring kelembaban otomatis dan mobil robotik dengan kendali jarak jauh/sensor.</p>
+                    </div>
+                </div>
+
+                <div class="project-card reveal-up" style="transition-delay: 0.6s;">
+                    <div class="card-image-wrapper">
+                         <img src="img/projek/Computer Vision Presence.png" alt="Face Recognition">
+                         <div class="card-overlay">
+                            <span>Artificial Intelligence</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Computer Vision Presence</h3>
+                        <p class="tech-stack">Python • OpenCV</p>
+                        <p class="project-desc">Sistem deteksi wajah untuk absensi atau keamanan, menggunakan library OpenCV.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="teaching" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title text-center">Pengalaman Mengajar</h2>
+            <p class="section-subtitle text-center">Berbagi ilmu praktis kepada siswa IT Club di SMK Setia Gama.</p>
+
+            <div class="teaching-grid">
+                <div class="teaching-card reveal-up">
+                    <div class="icon-box"><i class="fas fa-code"></i></div>
+                    <h3>Web Design</h3>
+                    <p>Mengajarkan dasar HTML, CSS, hingga pembuatan layout responsif sederhana kepada siswa pemula.</p>
+                </div>
+                <div class="teaching-card reveal-up">
+                    <div class="icon-box"><i class="fas fa-wifi"></i></div>
+                    <h3>IoT Dasar</h3>
+                    <p>Memperkenalkan mikrokontroler (Arduino/ESP8266) dan logika dasar sensor serta aktuator.</p>
+                </div>
+                <div class="teaching-card reveal-up">
+                    <div class="icon-box"><i class="fas fa-brain"></i></div>
+                    <h3>Logika Pemrograman</h3>
+                    <p>Melatih pola pikir komputasional (Computational Thinking) untuk pemecahan masalah coding.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Layout Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title text-center">Kontak Saya</h2>
+            <p class="section-subtitle text-center">Tertarik berkolaborasi, konsultasi, atau punya pertanyaan? Silakan hubungi langsung.</p>
+            <div class="contact-wrapper">
+                <!-- Informasi Kontak -->
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>abdl.roup14@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>+62 898-8672-570</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+62 851-7680-2655</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Jakarta, Indonesia</span>
+                    </div>
+                    <div class="social-links-big">
+                        <a href="#" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="mailto:abdl.roup14@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <!-- Formulir Kontak -->
+                <form action="https://formsubmit.co/abdl.roup14@gmail.com" method="POST" class="contact-form" autocomplete="off">
+    
+                    <input type="hidden" name="_subject" value="Pesan Baru dari Portofolio Web!">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html"> 
+                    <div class="form-group">
+                        <label for="name">Nama</label>
+                        <input type="text" id="name" name="name" placeholder="Nama Anda" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@email.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" style="width:100%; margin-top:12px;">
+                        Kirim Pesan <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- End Layout Contact Section -->
+
+    <footer class="footer-custom">
+        <div class="container">
+            <h3 style="color: var(--primary-color);">Visi & Misi</h3>
+            <p style="max-width: 600px; margin: 10px auto; color: var(--muted-text);">
+                "Menjadi Software Engineer yang membangun sistem digital berdampak positif bagi pendidikan dan bisnis. Terus Berinovasi."
+            </p>
+            <div class="social-links-footer">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p class="copyright">&copy; 2024 Abdul Roup.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
